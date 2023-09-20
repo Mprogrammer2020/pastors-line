@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+.assign-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.assignment-box {
+  height: 100vh;
+  position: relative;
+}
+.btn-A{
+  background-image: linear-gradient(to right, #46139f 0%, #46139f  51%, #885fce  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white !important;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border: none !important;
+}
+.btn-A:hover{
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.btn-B{
+  background-image: linear-gradient(to right, #ff7f50 0%, #ff7f50  51%, #cc876e  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white !important;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border: none !important;
+}
+.btn-B:hover{
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-C{
+  background-color: #fff ;
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #46139f !important;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border: 2px solid #46139f !important;
+}
+.btn-C:hover{
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.modal-body {
+  padding: 12px 32px;
+}
+.table-responsive th {
+  font-size: 14px !important;
+  padding: 12px !important;
+}
+.active {
+  box-shadow:
+  5px 5px 0 #FF9800,
+  10px 10px 0 #FFC107,
+  15px 15px 0 #fff;
+}
+.modal-loader svg {
+  position: absolute;
+  left: 46%;
+  top: 30%;
+  transform: translate(-30%, -46%);
+}
+.fade.detail-modal.modal.show {
+  background: #0006;
+}
+.detail-modal .modal-dialog {
+  max-width: 482px !important; 
+}
+.user-data {
+  margin: 12px 0;
+}
